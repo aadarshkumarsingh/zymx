@@ -1,0 +1,301 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+
+.navbar{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 35px;
+  text-decoration: none;
+  margin-top: 1rem;
+  font-family: "ubuntu";
+}
+li a:hover {
+  background-color: #666;
+  border-radius: 5%;
+}
+h1{
+  color: white;
+  display: block;
+  margin-top: 8.9rem;
+  margin-bottom: 40px;
+  font-size: 150px;
+}
+h2{
+  color: white;
+  padding-right: 820px;
+  padding-left: 80px;
+}
+
+h3{
+  color: #52057b;
+  font-size: 30px;
+}
+
+.index{
+background-image: url('back1.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+padding-top: 30px;
+padding-bottom: 260px;
+margin: 0;}
+
+.tagline{
+  color: white;
+  font-size: 33px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+p{font-family: "ubuntu"; font-weight: 350; font-size: 1.25rem; margin-top: 0; line-height: normal;}
+
+
+.Trainers{
+  background-color: #fff;
+  padding-top: 110px;
+  padding-bottom: 100px;
+
+}
+.Trainers h2{color: #393e46; font-size: 60px; padding: 0 500px;}
+.tr-row{width:50%; margin: 80px auto 80px auto; text-align: left; line-height: 2;}
+.tr1{border-radius: 100%; width: 25%; float: left; margin-right: 30px;}
+.tr2{border-radius: 100%; width: 25%; float: right; margin-left: 30px; margin-top: 25px;}
+.tr3{border-radius: 100%; width: 22%; float: left; margin-right: 30px; margin-top: 25px; padding-bottom: 30px;}
+
+.Contact h2{color: black; font-size: 30px; padding: 0 500px;}
+
+
+
+  .mail{text-decoration: none; color: #512b58; padding: 8px 8px; border-radius: 15%; border: 2px solid #230444; background-color: #dee3e2;}
+  .mail:hover{background-color: #323232; color: #fff; border: 2px solid #fff}
+  .mail .far{padding-right: 5px; margin-top: 10px;}
+
+li .fas{color: #fff;}
+
+.container {
+  background-color: #666;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.package{
+  width: 90%;
+  height: 88vh;
+  display: flex;
+}
+
+.pack{
+  flex: 1;
+  height: 100%;
+  transform : skew(5deg);
+  cursor: pointer;
+  margin: 0 2px;
+  transition: all 0.3s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #222;
+  position: relative;
+}
+
+.pack1{background-image: url('gym0.jpg');}
+.pack2{background-image: url('gym1.jpg');}
+.pack3{background-image: url('gym3.jpg');}
+.pack4{background-image: url('gym2.jpg');}
+.pack5{background-image: url('gym4.jpg');}
+
+.pack p{
+  position: absolute;
+  bottom: 0; left: 0;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.6);
+  color: #fff;
+  transform: rotate(-90deg);
+  transform-origin: 0% 0%;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+}
+
+.package:hover .pack{transform: skew(0);}
+
+.pack:hover{flex: 5;}
+
+.img:hover p{
+  background-color: transparent;
+  border: 2px solid #222;
+  color: #222;
+  transform: rotate(0deg);
+}
+
+
+.bottom{
+    background-color: #323232;
+    padding-bottom: 3px;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 25px;
+  }
+
+.icons .fab{
+  text-decoration: none;
+  color: black;
+  padding: 4rem 2rem 3rem;
+}
+
+.icons .fab:hover{color: #fff;}
+.copyright{color: #fff; }
+.Contact h2{
+  padding: 40px 0 20px;
+}
+
+.Contact p{
+  padding: 0 0 20px;
+  font-family: "ubuntu";
+}
+
+
+
+.navi{
+  background-color: #323232;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin: 0;}
+}
+
+
+
+
+.profile{
+  display: inline-block;
+  text-align: center;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 0 auto;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: 'ubuntu';
+}
+.form{margin-left: 570px;}
+
+.profile label {
+	display: block;
+	margin-bottom: 8px;
+}
+.profile input[type="text"],
+.profile input[type="number"],
+.profile select {
+	font-family: 'ubuntu';
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.profile input[type="number"],
+.profile input[type="number"],
+.profile select {
+	font-family: 'ubuntu';
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.profile input[type="number"],
+.profile input[type="text"],
+
+.profile input[type="text"]:focus,
+.profile input[type="number"]:focus,
+.profile select:focus{
+	background: #d2d9dd;
+}
+.profile input[type="number"]:focus,
+.profile input[type="number"]:focus,
+.profile select:focus{
+	background: #d2d9dd;
+}
+.profile input[type="number"]:focus,
+.profile input[type="text"]:focus,
+
+.profile select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.profile .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.profile input[type="submit"],
+.profile input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #373a40;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #686d76;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.profile input[type="submit"]:hover,
+.profile input[type="button"]:hover
+{
+	background: #686d76;
+}

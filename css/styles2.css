@@ -1,0 +1,216 @@
+body {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.hero {
+
+	height: 100%;
+	width: 100%;
+	background-image: url("gym.jpg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+}
+
+.formb {
+	width: 300px;
+	height: 420px;
+	position: relative;
+	right: 480px;
+	top: 100px;
+	bottom: 20px;
+	margin: 6% auto;
+	background: #fcf8ec;
+
+}
+.button {
+	width: 100px;
+	margin: 15px auto;
+	top: 15px;
+	position: relative;
+	box-shadow: 0 0 20px 10px #fff;
+	border-radius: 30px;
+}
+
+.log{
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 33px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 30px;
+	outline: none;
+	position: relative;
+	background-color: #682c0e;
+
+}
+
+#btn{
+	top: 0;
+	left: 0;
+	position: relative;
+	width: 100px;
+	height: 100%;
+	transition: .5s;
+
+}
+
+.impg {
+	top:125px;
+	position: absolute;
+	transition: .5;
+
+}
+
+.inpf {
+	width: 100%;
+	padding: 10px 5px;
+	margin: 5px 25px;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 2px solid black;
+	outline: none;
+	background: transparent;
+}
+
+.submitb {
+	width: 80%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 20px 45px;
+	background-color: #682c0e;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+
+}
+
+.submitc {
+	width: 80%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 20px 45px;
+	background-color: #682c0e;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+
+}
+
+h4 {
+
+	margin: 0 10px;
+	color:  #682c0e;
+}
+
+.reg {
+	color: #d0e8f2;
+}
+
+.log1{
+	padding-left: 13px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 30px;
+	outline: none;
+	position: relative;
+	background-color: #456268;
+
+}
+
+.hero1{
+
+
+	height: 100%;
+	width: 100%;
+	background-image: url("gym6.jpg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+
+}
+
+.title1 {
+	padding-left: 40px;
+	color: #fcf8ec;
+}
+
+.logb {
+
+	color: #EFD9D1;
+
+}
+
+.let {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #EFD9D1;
+
+}
+
+.reg1 {
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #EFD9D1;
+}
+
+.pl {
+color: #EFD9D1;
+
+}
+
+::-webkit-input-placeholder {
+	color: black;
+}
+
+.sub {
+
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #d0e8f2;
+
+}
+
+.formc {
+
+	width: 300px;
+	height: 420px;
+	position: relative;
+	right: 480px;
+	top: 100px;
+	bottom: 20px;
+	margin: 6% auto;
+	background: #e8e8e8;
+
+
+}
+
+.submitd {
+	width: 80%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: 20px 45px;
+	background-color: #456268;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+
+}
+
+.title2 {
+	padding-left: 40px;
+
+	color: #456268;
+}
