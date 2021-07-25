@@ -1,5 +1,4 @@
-# zymx
-Gym membership management system
+# zymx - Gym membership management system
 This project “ZYMX - GYM MEMBERSHIP MANAGEMENT
 SYSTEM” is solution for fitness centres to manage the customers in 
 an easier, advanced and more convenient way. The administrator is 
